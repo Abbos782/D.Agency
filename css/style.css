@@ -60,7 +60,22 @@ body{
 
 	}
 
+
+
 .container1{
 	width: 1144px;
 	margin: 0 auto;
+}
+.digital>.container1{
+	display: flex;
+	justify-content: space-between;
+}
+.digital__subtext{
+	width: 30%;
+}
+.digital__photo{
+	width: 50%;
+}
+.digital__photo img{
+	width: 100%;	
 }	
