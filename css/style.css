@@ -142,6 +142,27 @@ body{
 	width: 65px;
 	z-index: -20;
 }
+ .services>.container{
+ 	position: relative;
+ }
+ .photo__top{
+ 	position: absolute;
+ 	z-index: -10;
+ 	top: 27%;
+ 	left: -5%;
+ }
+ .photo__left{
+    position: absolute;
+    z-index: -15;
+    bottom: -2%;
+    left: -5%;	
+ }
+ .photo__right{
+    position: absolute;
+    z-index: -15;
+    bottom: -4%;
+    right: -5%;	
+ }
 
 .services__header{
 	width: 100%;
@@ -173,20 +194,25 @@ body{
 	padding: 30px 0;
 	color: rgba(0,0,0,0.5);
 }
-.services__body{
+.services__body,.services__body1{
 	padding-top: 150px;
 	display: flex;
 	justify-content: space-between;
+}
+.services__body1{
+	padding-top: 30px;
+
 }
 
 .services__body__box{
 	padding: 20px;
 	width: 30%;
-	border:1px solid #E5E5E5;
+	border:1px solid #F2F2F2;
 	border-radius: 10px 80px 10px 10px;
+	background-color: #fff;
 }
 .services__body__box__img{
-	border:1px solid #E5E5E5;
+	border:1px solid #F2F2F2;
 	padding: 10px;
 	border-radius: 10px;
 }
