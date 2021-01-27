@@ -10,11 +10,23 @@ body{
 	font-family: 'Poppins', sans-serif;
 
 }
-.container{
-	width: 1170px;
+.container1{
+	width: 1270px;
 	margin: 0 auto;
 }
-.nav>.container{
+.primary_button{
+	padding: 12px 35px;
+	color: #fff;
+	background-color:#3297DB; 
+	border:none;
+	border-radius: 5px;
+	box-shadow:0 0 20px  #3297DB;
+}
+.primary_button:hover{
+	background-color:blue;
+
+}
+.nav>.container1{
 	display: flex;
 	justify-content: space-between;
 	padding: 30px 0;
@@ -22,12 +34,13 @@ body{
 }
 .nav__logo{
 	font-size: 25px;
-	font-weight: 500;
-	color: rgba(0,0,0,0.6);
+	font-weight: 700;
+	color: rgba(0,0,0,0.4);
 
 }
 .nav__logo__span{
 	color: #E74C3C;
+	font-weight: 900;
 }
 .nav__list{
 	display: flex;
@@ -55,18 +68,18 @@ body{
 .nav__link a,.nav__link a:hover{
 	color: #fff;
 }
-.nav__link:hover,.digital__btn:hover{
+.nav__link:hover{
 	 background-color:blue;
 
 	}
 
 
 
-.container1{
+.container{
 	width: 1144px;
 	margin: 0 auto;
 }
-.digital>.container1{
+.digital>.container{
 	display: flex;
 	justify-content: space-between;
 }
@@ -77,9 +90,10 @@ body{
 }
 .digital__title{
 	font-size: 75px;
+	color: #2D3E50;
 }
 .digital__span{
-	color: red;
+	color: #E84C3D;
 }
 .digital__photo{
 	position: relative;
@@ -107,14 +121,7 @@ body{
 	padding-top: 50px;
 	padding-bottom: 40px;
 }
-.digital__btn{
-	padding: 12px 35px;
-	color: #fff;
-	background-color:#3297DB; 
-	border:none;
-	border-radius: 5px;
-	box-shadow:0 0 20px  #3297DB;
-}
+
 .digital__img-doughnut{
 	top: 20%;
 	position: absolute;
@@ -134,4 +141,62 @@ body{
 	right: -3%;
 	width: 65px;
 	z-index: -20;
+}
+
+.services__header{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	justify-content: center;
+	color: #2D3E51;
+	height: 200px;
+	padding-top: 50px;
+
+}
+.services__header__title{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	width: 70%;
+
+	
+
+}
+.services__header__span{
+	color: #E34F3F;
+
+}
+.services__header__text{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	padding: 30px 0;
+	color: rgba(0,0,0,0.5);
+}
+.services__body{
+	padding-top: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services__body__box{
+	padding: 20px;
+	width: 30%;
+	border:1px solid #E5E5E5;
+	border-radius: 10px 80px 10px 10px;
+}
+.services__body__box__img{
+	border:1px solid #E5E5E5;
+	padding: 10px;
+	border-radius: 10px;
+}
+.services__body__box__title{
+	color: rgba(0,0,0,0.6);
+	padding: 15px 0;
+}
+.services__body__box__text{
+	width: 100%;
+    color: rgba(0,0,0,0.5);
+    padding: 10px 0;
+    padding-bottom: 20px;
 }
