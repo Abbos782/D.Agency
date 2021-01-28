@@ -154,13 +154,13 @@ body{
  .photo__left{
     position: absolute;
     z-index: -15;
-    bottom: -2%;
+    bottom: 5%;
     left: -5%;	
  }
  .photo__right{
     position: absolute;
     z-index: -15;
-    bottom: -4%;
+    bottom: 1%;
     right: -5%;	
  }
 
@@ -201,6 +201,8 @@ body{
 }
 .services__body1{
 	padding-top: 30px;
+	padding-bottom: 70px;
+
 
 }
 
@@ -210,6 +212,12 @@ body{
 	border:1px solid #F2F2F2;
 	border-radius: 10px 80px 10px 10px;
 	background-color: #fff;
+}
+.services__body__box:hover{
+	box-shadow: 0 0 30px rgba(0,0,0,0.4);
+
+
+
 }
 .services__body__box__img{
 	border:1px solid #F2F2F2;
@@ -225,4 +233,19 @@ body{
     color: rgba(0,0,0,0.5);
     padding: 10px 0;
     padding-bottom: 20px;
+}
+.customer{
+	background-color: #FCFCFC;
+	padding: 100px 0;
+}
+.customer>.container{
+	display: flex;
+	justify-content: space-between;
+
+}
+.customer__photo{
+	width: 50%;
+}
+.customer__subtext{
+	width: 40%;
 }
