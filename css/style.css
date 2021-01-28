@@ -323,7 +323,52 @@ body{
 
 }
 .customer__btn__span{
-
+  font-size: 22px;
 	padding-left: 10px;
 	/*padding: 5px;*/
+}
+.innovation>.container{
+	display: flex;
+	justify-content: space-between;
+}
+.innovation__photo__logo1,.innovation__photo__logo2{
+	position: absolute;
+	width: 50%;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	/*border:1px solid rgba(0,0,0,0.4);*/
+	padding: 10px 20px;
+	align-items: center;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.innovation__photo__logo1{
+	top: -7%;
+	right: -6%;
+}
+.innovation__photo__logo2{
+	bottom: -7%;
+	left: -6%;
+	width: 70%;
+}
+.innovation__photo__logo__img{
+	width: 30%;
+}
+.innovation__photo__logo__title{
+	width: 60%;
+}
+.innovation__photo__left{
+	width: 20%;
+	position: absolute;
+	left: -3%;
+	top: -4%;
+	z-index: -1;
+}
+.innovation__photo__bottom{
+	width: 20%;
+	position: absolute;
+	right:-5%;
+	bottom: 0%;
+    z-index: 3;
 }
