@@ -235,6 +235,7 @@ font-size: 17px;
 }
 .services__body__box:hover{
 	box-shadow: 0 0 30px rgba(0,0,0,0.4);
+	transform: s
 
 
 
@@ -614,6 +615,37 @@ background-color:#242424;
 	color: red;
 }
 .footer__footer__list img{
+ 
+}
+@media(max-width:1340px){
+	.container{
+       width:1240px;
+       margin: 0 auto;
+	}
+}
 
+@media(max-width:1140px){
+	.container{
+       width:1100px;
+       margin: 0 auto;
+	}
+}
+@media(max-width:1040px){
+	.container{
+       width:1000px;
+       margin: 0 auto;
+	}
+}
+@media(max-width:940px){
+	.container{
+       width:900px;
+       margin: 0 auto;
+	}
+}
+@media(max-width:840px){
+	.container{
+       width:740px;
+       margin: 0 auto;
+	}
 }
 
