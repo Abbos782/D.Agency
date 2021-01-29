@@ -617,22 +617,51 @@ background-color:#242424;
 .footer__footer__list img{
  
 }
-@media(max-width:1340px){
-	.container{
-       width:1240px;
+
+@media(max-width:1920px){
+	.container1{
+       width:1840px;
        margin: 0 auto;
+       
 	}
 }
-
+@media(max-width:1840px){
+	.container1{
+       width:1740px;
+       margin: 0 auto;
+       
+	}
+}
+@media(max-width:1740px){
+	.container1{
+       width:1640px;
+       margin: 0 auto;
+       
+	}
+}
+@media(max-width:1640px){
+	.container1{
+       width:1360px;
+       margin: 0 auto;
+       
+	}
+}
+@media(max-width:1460px){
+	.container1{
+       width:1360px;
+       margin: 0 auto;
+       
+	}
+}
 @media(max-width:1140px){
 	.container{
-       width:1100px;
+       width:1000px;
        margin: 0 auto;
 	}
 }
 @media(max-width:1040px){
 	.container{
-       width:1000px;
+       width:900px;
        margin: 0 auto;
 	}
 }
